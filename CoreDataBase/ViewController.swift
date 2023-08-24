@@ -135,9 +135,6 @@ class ViewController: UIViewController {
             print(error)
         }
     }
-    
-    
-    
     func neviget() {
         let n = storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
         navigationController?.pushViewController(n, animated: true)
